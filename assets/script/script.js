@@ -31,3 +31,12 @@ function getOSName() {
 function getScreenSize() {
   return `${screen.width}x${screen.height}`
 }
+
+window.onload =  function() {
+  setTimeout(() => {
+    if(!getCookie("visited")) {
+      document.getElementById("cookieDialog").showModal();
+    }
+  }, 1000);
+}
+
