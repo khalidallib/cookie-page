@@ -14,3 +14,20 @@ function getCookie(name) {
   }
   return null;
 }
+
+function getOSName() {
+  const platform = navigator.platform.toLocaleLowerCase();
+  if (platform.indexOf("win") > -1 ) {
+    return "Windows"
+  }
+  if (platform.indexOf("max") > -1 ) {
+    return "MacOS"
+  }
+  if (platform.indexOf("Linux") > -1 ) {
+    return "Linux"
+  }
+}
+
+function getScreenSize() {
+  return `${screen.width}x${screen.height}`
+}
