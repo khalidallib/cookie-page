@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Khalid Alli-B">
+    <meta name="description" content="My first web page">
+    <meta name="keywords" content="HTML, CSS, Web, Web Development, JavaScript">  
+    <link rel="stylesheet" href="./assets/style/index.css" media="all">
+    <link rel="icon" href="./assets/media/favicon.png?v=2" type="image/x-icon"> 
+    <script src="./assets/script/script.js" defer></script>
+    <title></title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <section>
+          <p>Welcome to my cookie demo page. This site uses cookies to enhance your experience. We collect basic information about your device, browser, and operating system to ensure smooth functionality and responsive design. You’re always in control, choose to accept all cookies or customize your settings to fit your preferences.</p>
+        </section>
+
+      </div>
+      <dialog id="cookieDialogue">
+        <p>This site uses coookies to store information about your device and browser</p>
+        <input type="button" value="Accept All" id="acceptAll">
+        <input type="button" value="Open Settings" id="openSettings">
+      </dialog>
+      <dialog id="settingsDialogue">
+        <p>Cookie Settings</p>
+        <label><input type="checkbox" id="browserToggle" checked>Browser Name</label><br>
+        <label><input type="checkbox" id="osToggle" checked>OS Name</label><br>
+        <label><input type="checkbox" id="screenrToggle" checked>Screeb Suze</label><br>
+        <input type="button" id="save" value="Save">
+      </dialog>
+    </main>
+  </body>
+</html>
