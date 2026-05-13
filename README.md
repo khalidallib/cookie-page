@@ -4,6 +4,11 @@ A simple cookie consent and settings demo page built with HTML, CSS, and JavaScr
 
 ---
 
+# Screenshot
+![image alt](https://github.com/khalidallib/cookie-page/blob/febf41e0f69e9e4afa345c16c4177497a37e14c4/assets/Screenshot%202026-05-13%20001520.png)
+
+---
+
 # Tech Stack
 
 - HTML5
