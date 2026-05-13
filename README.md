@@ -4,14 +4,6 @@ A simple cookie consent and settings demo page built with HTML, CSS, and JavaScr
 
 ---
 
-# Screenshot
-
-![Cookie Demo Screenshot](./assets/media/screenshot.png)
-
-> Replace `screenshot.png` with an actual screenshot of your project.
-
----
-
 # Tech Stack
 
 - HTML5
